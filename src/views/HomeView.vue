@@ -17,7 +17,15 @@
     <div class="flex justify-center">
       <router-link
         to="/about"
-        class="text-gray-900 pt-10 pb-3 w-0 tracking-full-width font-bold"
+        class="
+          text-gray-900
+          pt-3
+          md:pt-10
+          pb-3
+          w-0
+          tracking-full-width
+          font-bold
+        "
       >
         <span>H</span>
         <span>O</span>
@@ -28,7 +36,17 @@
   </div>
   <div class="fixed bottom-0 left-0 right-0">
     <div class="flex justify-center">
-      <p class="text-gray-900 pt-3 pb-10 w-0 tracking-full-width font-bold">
+      <p
+        class="
+          text-gray-900
+          pt-3
+          pb-3
+          md:pb-10
+          w-0
+          tracking-full-width
+          font-bold
+        "
+      >
         <span>C</span>
         <span>O</span>
         <span>N</span>
@@ -45,7 +63,8 @@
         to="/about"
         class="
           text-gray-900
-          pr-10
+          pr-3
+          md:pr-10
           pl-3
           tracking-full-height
           turn-left
@@ -71,7 +90,8 @@
         class="
           text-gray-900
           pr-3
-          pl-10
+          pl-3
+          md:pl-10
           tracking-full-height
           turn-right
           font-bold
@@ -99,7 +119,6 @@ export default defineComponent({
   },
 });
 </script>
-
 
 <style scoped>
 .tracking-full-width {
@@ -137,6 +156,7 @@ export default defineComponent({
 .turn-right span {
   transform: rotate(90deg);
 }
+
 .turn-left span {
   transform: rotate(-90deg);
 }
