@@ -9,7 +9,7 @@ import NavbarComponent from '@/components/NavbarComponent.vue'
 export default {
   components: {
     NavbarComponent
-  }
+  },
 }
 </script>
 
@@ -26,6 +26,7 @@ export default {
   display: flex;
   justify-content: space-around;
   transition-duration: 0.7s;
+  cursor: pointer;
 }
 
 .navigation-element span {
