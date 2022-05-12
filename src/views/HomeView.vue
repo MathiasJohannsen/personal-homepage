@@ -15,7 +15,7 @@
           <div class="w-1/3 justify-self-center md:justify-self-start">
             <img
               class="w-full h-full"
-              src="@/assets/img/round-logo.svg"
+              src="@/assets/img/round-logo-ua.svg"
               alt=""
             />
           </div>
