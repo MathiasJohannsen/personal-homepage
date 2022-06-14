@@ -4,17 +4,17 @@
       <div class="h-screen w-screen">
         <div class="h-full w-full overflow-hidden">
           <div class="h-full w-full overflow-auto">
-            <div class="h-screen w-full bg-orange-100">
+            <div class="h-screen w-full bg-orange-100" style="background-color: #FCECDD; color: #FF6701;">
               <h1 class="pt-10 text-4xl">Catan</h1>
               <h2 class="text-xl">Technology</h2>
               <ul class="list-none">
                 <li>Unity</li>
               </ul>
             </div>
-            <div class="h-screen w-full bg-lime-100">
+            <div class="h-screen w-full bg-lime-100" style="background-color: #FEFFDE; color: #52734D;">
               <h1 class="pt-10 text-4xl">Minesweeper 3D</h1>
             </div>
-            <div class="h-screen w-full bg-yellow-100">
+            <div class="h-screen w-full bg-yellow-100" style="background-color: #EBFFFA; color: #0DCEDA;">
               <h1 class="pt-10 text-4xl">Real World Simulator</h1>
             </div>
           </div>
@@ -74,6 +74,7 @@ export default defineComponent({
   overflow: hidden;
   width: 100vw;
   height: fit-content;
+  /* background-color: #efdddd; */
 }
 
 #slide-body {
