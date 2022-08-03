@@ -46,7 +46,7 @@
       <div class="absolute bottom-0 left-0 right-0">
         <div class="flex justify-center">
           <p
-            @click="slide('/about', 'slide-bottom')"
+            @click="slide('/contact', 'slide-bottom')"
             class="
               text-gray-900
               pt-3
