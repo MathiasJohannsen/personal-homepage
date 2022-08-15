@@ -106,14 +106,6 @@ export default defineComponent({
   left: -100vw;
 }
 
-.bg-image {
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .bg-portrait {
   background-image: url('@/assets/img/portrait.jpg');
   background-position: center 80%;

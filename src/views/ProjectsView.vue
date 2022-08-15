@@ -4,12 +4,28 @@
       <div class="h-screen w-screen">
         <div class="h-full w-full overflow-hidden">
           <div class="h-full w-full overflow-auto">
-            <div class="h-screen w-full bg-orange-100" style="background-color: #FCECDD; color: #FF6701;">
-              <h1 class="pt-10 text-4xl">Catan</h1>
-              <h2 class="text-xl">Technology</h2>
-              <ul class="list-none">
-                <li>Unity</li>
-              </ul>
+            <div class="flex">
+              <div class="h-screen w-1/2 bg-[#FCECDD] text-[#FF6701]">
+                <h1 class="pt-10 text-4xl">Catan</h1>
+                <br>
+                <p>
+                  <span class="p-2 rounded-lg bg-[#FED7B3]">🕒 2021</span>
+                </p>
+                <br>
+                <p>
+                  <span class="p-2 rounded-lg bg-[#FED7B3]">🎮 Unity</span>
+                </p>
+                <br>
+                <p>
+                  <a href="https://github.com/MathiasJohannsen/unity-catan" target="_blank">
+                    <span class="p-2 rounded-lg bg-[#FED7B3]">🔗 Github</span>
+                  </a>
+                </p>
+                <br>
+              </div>
+              <div class="h-screen w-1/2 bg-image bg-[url('@/assets/img/catan.png')]">
+
+              </div>
             </div>
             <div class="h-screen w-full bg-lime-100" style="background-color: #FEFFDE; color: #52734D;">
               <h1 class="pt-10 text-4xl">Minesweeper 3D</h1>
