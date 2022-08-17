@@ -14,7 +14,7 @@
               </div>
             </div>
             <div class="h-screen w-full bg-image bg-git text-[beige]">
-              <h1 class="pt-10 text-4xl"><div class="backdrop-blur-md">I learned programming in school and like to make many small projects in my free time </div></h1>
+              <h1 class="pt-10 text-4xl backdrop-blur-md">I learned programming in school and like to make many small projects in my free time</h1>
             </div>
             <div class="h-screen w-full bg-image bg-sax" style="background-color: #FCECDD; color: #FF6701;">
               <h1 class="pt-10 text-4xl">I play the saxophone</h1>
