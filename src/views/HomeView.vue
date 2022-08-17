@@ -145,36 +145,4 @@ export default defineComponent({
 </script>
 
 <style>
-.slide-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-}
-
-#slide-body {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  transition: 1s;
-}
-
-.slide-wrapper #slide-body.slide-left {
-  transition: 1s;
-  left: 100vw;
-}
-
-.slide-wrapper #slide-body.slide-right {
-  transition: 1s;
-  left: -100vw;
-}
-
-.slide-wrapper #slide-body.slide-bottom {
-  transition: 1s;
-  top: -100vw;
-}
 </style>

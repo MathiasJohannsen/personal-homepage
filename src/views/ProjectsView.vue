@@ -23,7 +23,7 @@
                 </p>
                 <br>
               </div>
-              <div class="h-screen w-1/2 bg-image bg-[url('@/assets/img/catan.png')]">
+              <div class="h-screen w-1/2 bg-image bg-catan">
 
               </div>
             </div>
@@ -85,30 +85,7 @@ export default defineComponent({
 </script>
 
 <style>
-.slide-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: fit-content;
-  /* background-color: #efdddd; */
-}
-
-#slide-body {
-  position: fixed;
-  right: 0;
-  left: 0;
-  width: 100vw;
-  height: fit-content;
-  transition: 1s;
-}
-
-.slide-wrapper #slide-body.slide-left {
-  transition: 1s;
-  left: 100vw;
-}
-
-.slide-wrapper #slide-body.slide-right {
-  transition: 1s;
-  left: -100vw;
+.bg-catan {
+  background-image: url('@/assets/img/catan.png');
 }
 </style>

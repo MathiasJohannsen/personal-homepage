@@ -79,33 +79,6 @@ export default defineComponent({
 </script>
 
 <style>
-.slide-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: fit-content;
-  /* background-color: #efdddd; */
-}
-
-#slide-body {
-  position: fixed;
-  right: 0;
-  left: 0;
-  width: 100vw;
-  height: fit-content;
-  transition: 1s;
-}
-
-.slide-wrapper #slide-body.slide-left {
-  transition: 1s;
-  left: 100vw;
-}
-
-.slide-wrapper #slide-body.slide-right {
-  transition: 1s;
-  left: -100vw;
-}
-
 .bg-portrait {
   background-image: url('@/assets/img/portrait.jpg');
   background-position: center 80%;
@@ -126,5 +99,4 @@ export default defineComponent({
 .bg-bike {
   background-image: url('@/assets/img/bike.jpg');
 }
-
 </style>
